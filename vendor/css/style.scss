@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Ruthie&display=swap');
-$mainColor : 'dark';
+$mainColor : #cc0600;
 
 *,body{
  margin: 0;
@@ -34,7 +34,7 @@ nav {
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.show:hover,
 .navbar-light .navbar-nav .show > .nav-link:hover{
-  color: #cc0600;
+  color: $mainColor;
 }
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.active,
@@ -64,6 +64,7 @@ header{
   position: relative;
   left: 0;
   top: 0;
+  height: 845px;
 
   /*
   ==================
@@ -75,7 +76,7 @@ header{
     top: -150px;
   }
   .carousel-back-1{
-    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,0.9)),url("../img/hero.jpg") no-repeat ;
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,0.9)),url("../img/hero.jpg") no-repeat fixed;
     background-size:cover ;
     padding-top: 150px;
     padding-bottom: 300px;
@@ -95,16 +96,16 @@ header{
         font-size: 3rem;
       }
       h2:hover{
-        color: #cc0600;
+        color: $mainColor;
         transition: 1s;
       }
 
       h3:hover{
-        color: #cc0600;
+        color: $mainColor;
         transition: 1s;
       }
       p:hover{
-        color: #cc0600;
+        color: $mainColor;
         transition: 1s;
       }
       p{
@@ -115,7 +116,7 @@ header{
     }
   }
   .carousel-back-2{
-    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,0.9)),url("../img/delight-group-1.jpg") no-repeat ;
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,0.9)),url("../img/delight-group-1.jpg") no-repeat fixed;
     background-size:cover ;
     padding-top: 150px;
     padding-bottom: 300px;
@@ -139,22 +140,22 @@ header{
         color: white;
       }
       h2:hover{
-        color: #cc0600;
+        color: $mainColor;
         transition: 1s;
       }
 
       h3:hover{
-        color: #cc0600;
+        color: $mainColor;
         transition: 1s;
       }
       p:hover{
-        color: #cc0600;
+        color: $mainColor;
         transition: 1s;
       }
     }
   }
   .carousel-back-3{
-    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,0.9)),url("../img/menu-group-2.jpg") no-repeat ;
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,0.9)),url("../img/menu-group-2.jpg") no-repeat fixed;
     background-size:cover ;
     padding-top: 150px;
     padding-bottom: 300px;
@@ -178,18 +179,125 @@ header{
         color: white;
       }
       h2:hover{
-        color: #cc0600;
+        color: $mainColor;
         transition: 1s;
       }
 
       h3:hover{
-        color: #cc0600;
+        color: $mainColor;
         transition: 1s;
       }
       p:hover{
-        color: #cc0600;
+        color: $mainColor;
         transition: 1s;
       }
     }
   }
 }
+.who-us {
+  padding-bottom: 100px;
+  .main-text h1{
+    text-transform: capitalize;
+    color: $mainColor;
+    font-size: 3rem;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .main-text h1:after{
+    position: absolute;
+    top: 0;
+    left: 45%;
+    content: '';
+    transform: translateY(70px);
+    color: $mainColor;
+    background: $mainColor;
+    width: 100px;
+    text-align: center;
+    height: 2px;
+  }
+  .who-us-text{
+    margin-top: 100px;
+    z-index: 222;
+    position: relative;
+    padding: 12px;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+    h2{
+      text-transform: capitalize;
+      font-family: 'Ruthie', cursive;
+
+      font-size: 3.5rem;
+      &:hover{
+        color: $mainColor;
+        transition: 1s;
+      }
+    }
+    p{
+      padding-top: 30px;
+      line-height: 25px;
+      &:hover{
+        color: $mainColor;
+        transition: 1s;
+      }
+    }
+  }
+  .why-us-img{
+    margin-top: 50px;
+
+  }
+  .why-us-img img{
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  }
+  .why-us-img img.last-child{
+    width: 100%;
+    position: relative;
+    right: 100px;  }
+
+}
+
+/*
+====================
+  Portfolio Filter Gallery
+====================
+
+*/
+.portfolio-menu{
+  text-align:center;
+  ul li{
+    display:inline-block;
+    margin:0;
+    list-style:none;
+    padding:10px 15px;
+    cursor:pointer;
+    -webkit-transition:all 05s ease;
+    -moz-transition:all 05s ease;
+    -ms-transition:all 05s ease;
+    -o-transition:all 05s ease;
+    transition:all .5s ease;
+    &:hover{
+      background-color: $mainColor;
+      border-color: $mainColor;
+    }
+  }
+}
+.btn-outline-dark:not(:disabled):not(.disabled).active,
+.btn-outline-dark:not(:disabled):not(.disabled):active,
+.show > .btn-outline-dark.dropdown-toggle{
+  background-color: $mainColor;
+  border-color: $mainColor;
+}
+
+
+.portfolio-item{
+  /*width:100%;*/
+  .item{
+    /*width:303px;*/
+    float:left;
+    margin-bottom:10px;
+  }
+}
+
