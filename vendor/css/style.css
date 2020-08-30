@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Ruthie&display=swap");
+*, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/*
+=====================
+    Navagtion
+=====================
+
+*/
+nav {
+  z-index: 22; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'sans-serif'; }
+
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #cc0600;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'sans-serif'; }
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.show:hover,
+.navbar-light .navbar-nav .show > .nav-link:hover {
+  color: #cc0600; }
+
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  position: relative;
+  top: 0;
+  left: 0;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'sans-serif'; }
+
+.navbar-light .navbar-nav .active > .nav-link:after,
+.navbar-light .navbar-nav .nav-link.active:after,
+.navbar-light .navbar-nav .nav-link.show:after,
+.navbar-light .navbar-nav .show > .nav-link:after {
+  color: #cc0600; }
+
+.navbar-light .navbar-brand {
+  font-size: 2rem;
+  color: white; }
+
+header {
+  position: relative;
+  left: 0;
+  top: 0;
+  /*
+  ==================
+      owl-carousel
+  ==================
+  */ }
+  header .owl-carousel {
+    position: relative;
+    top: -150px; }
+  header .carousel-back-1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url("../img/hero.jpg") no-repeat;
+    background-size: cover;
+    padding-top: 150px;
+    padding-bottom: 300px;
+    position: relative;
+    top: 0;
+    margin-top: -70px; }
+    header .carousel-back-1 .carousel-text {
+      margin-top: 200px; }
+      header .carousel-back-1 .carousel-text h2 {
+        font-family: 'Ruthie', cursive;
+        font-size: 4rem;
+        color: white; }
+      header .carousel-back-1 .carousel-text h3 {
+        color: white;
+        font-size: 3rem; }
+      header .carousel-back-1 .carousel-text h2:hover {
+        color: #cc0600;
+        transition: 1s; }
+      header .carousel-back-1 .carousel-text h3:hover {
+        color: #cc0600;
+        transition: 1s; }
+      header .carousel-back-1 .carousel-text p:hover {
+        color: #cc0600;
+        transition: 1s; }
+      header .carousel-back-1 .carousel-text p {
+        font-size: 2rem;
+        color: white; }
+  header .carousel-back-2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url("../img/delight-group-1.jpg") no-repeat;
+    background-size: cover;
+    padding-top: 150px;
+    padding-bottom: 300px;
+    position: relative;
+    top: 0;
+    margin-top: -70px; }
+    header .carousel-back-2 .carousel-text {
+      margin-top: 200px; }
+      header .carousel-back-2 .carousel-text h2 {
+        font-family: 'Ruthie', cursive;
+        font-size: 4rem;
+        color: white; }
+      header .carousel-back-2 .carousel-text h3 {
+        color: white;
+        font-size: 3rem; }
+      header .carousel-back-2 .carousel-text p {
+        font-size: 2rem;
+        color: white; }
+      header .carousel-back-2 .carousel-text h2:hover {
+        color: #cc0600;
+        transition: 1s; }
+      header .carousel-back-2 .carousel-text h3:hover {
+        color: #cc0600;
+        transition: 1s; }
+      header .carousel-back-2 .carousel-text p:hover {
+        color: #cc0600;
+        transition: 1s; }
+  header .carousel-back-3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url("../img/menu-group-2.jpg") no-repeat;
+    background-size: cover;
+    padding-top: 150px;
+    padding-bottom: 300px;
+    position: relative;
+    top: 0;
+    margin-top: -70px; }
+    header .carousel-back-3 .carousel-text {
+      margin-top: 200px; }
+      header .carousel-back-3 .carousel-text h2 {
+        font-family: 'Ruthie', cursive;
+        font-size: 4rem;
+        color: white; }
+      header .carousel-back-3 .carousel-text h3 {
+        color: white;
+        font-size: 3rem; }
+      header .carousel-back-3 .carousel-text p {
+        font-size: 2rem;
+        color: white; }
+      header .carousel-back-3 .carousel-text h2:hover {
+        color: #cc0600;
+        transition: 1s; }
+      header .carousel-back-3 .carousel-text h3:hover {
+        color: #cc0600;
+        transition: 1s; }
+      header .carousel-back-3 .carousel-text p:hover {
+        color: #cc0600;
+        transition: 1s; }
+
+/*# sourceMappingURL=style.css.map */

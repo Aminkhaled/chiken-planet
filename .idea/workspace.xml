@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="72aad2cb-f494-4ccc-a69e-7ba755a64293" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1gn2U76l2z1KUCLa1XB03cN4AiV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/vendor/css" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Spotline\chicken\chiken planet\vendor" />
+      <recent name="F:\Spotline\chicken\chiken planet\vendor\js" />
+      <recent name="F:\Spotline\chicken\chiken planet\vendor\css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Spotline\chicken\chiken planet\vendor\css" />
+      <recent name="F:\Spotline\chicken\chiken planet\vendor\js" />
+      <recent name="F:\Spotline\chicken\chiken planet\vendor\img" />
+      <recent name="F:\Spotline\chicken\chiken planet" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="72aad2cb-f494-4ccc-a69e-7ba755a64293" name="Default Changelist" comment="" />
+      <created>1598736048756</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598736048756</updated>
+      <workItem from="1598736050489" duration="3115000" />
+      <workItem from="1598775272786" duration="8382000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="351" y="150" key="EditFileWatcherDialog" timestamp="1598737846492">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="351" y="150" key="EditFileWatcherDialog/0.0.1366.728@0.0.1366.728" timestamp="1598737846492" />
+    <state x="183" y="14" key="SettingsEditor" timestamp="1598737847836">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="183" y="14" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1598737847836" />
+    <state x="338" y="168" key="run.anything.popup" timestamp="1598785903300">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="338" y="168" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1598785903300" />
+  </component>
+</project>
