@@ -904,4 +904,189 @@ textarea {
 .contact-form input:focus, textarea:focus {
   border-color: #cc0600; }
 
+/*
+==============
+menu page
+==============
+*/
+.menu-page .jumbotron {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("../img/menu.png") no-repeat fixed;
+  background-size: cover;
+  height: 500px;
+  overflow: hidden; }
+  .menu-page .jumbotron .for-about {
+    text-align: center;
+    margin-top: 12%; }
+  .menu-page .jumbotron h1 {
+    color: white;
+    font-family: 'Ruthie', cursive;
+    font-size: 6rem; }
+    .menu-page .jumbotron h1:hover {
+      color: #cc0600;
+      transform: scale(1.3);
+      transition: 1s; }
+  .menu-page .jumbotron p {
+    font-size: 2.5rem;
+    color: white;
+    font-family: 'Ruthie', cursive; }
+    .menu-page .jumbotron p:hover {
+      color: #cc0600;
+      transform: scale(1.3);
+      transition: 1s; }
+.menu-page .arrow-divded-down {
+  width: 124px;
+  height: 13px;
+  background: url(../img/arrow-down.png) center no-repeat;
+  position: relative;
+  bottom: -126px;
+  left: 49%;
+  margin-left: -62px; }
+
+.breakfast .jumbotron {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("../img/reservation.png") no-repeat fixed;
+  background-size: cover;
+  height: 500px;
+  overflow: hidden; }
+  .breakfast .jumbotron .for-about {
+    text-align: center;
+    margin-top: 12%; }
+  .breakfast .jumbotron h1 {
+    color: white;
+    font-family: 'Ruthie', cursive;
+    font-size: 6rem; }
+    .breakfast .jumbotron h1:hover {
+      color: #cc0600;
+      transform: scale(1.3);
+      transition: 1s; }
+  .breakfast .jumbotron p {
+    font-size: 2.5rem;
+    color: white;
+    font-family: 'Ruthie', cursive; }
+    .breakfast .jumbotron p:hover {
+      color: #cc0600;
+      transform: scale(1.3);
+      transition: 1s; }
+.breakfast .arrow-divded-down {
+  width: 124px;
+  height: 13px;
+  background: url(../img/arrow-down.png) center no-repeat;
+  position: relative;
+  bottom: -126px;
+  left: 49%;
+  margin-left: -62px; }
+
+.breakfast-meals .dish-panel {
+  padding-bottom: 16px;
+  border-bottom: 1px dashed #cc0600; }
+.breakfast-meals .dish-panel:last-child {
+  padding-bottom: 0;
+  border-bottom: none;
+  margin-bottom: 0; }
+.breakfast-meals .dish-panel .dish--price {
+  text-align: right;
+  color: #cc0600; }
+.breakfast-meals .dish-panel .dish--title:hover {
+  color: #cc0600;
+  transition: 1s; }
+.breakfast-meals .dish-container .dish--img {
+  margin-bottom: 32px; }
+
+.lunch .jumbotron {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("../img/reservation.png") no-repeat fixed;
+  background-size: cover;
+  height: 500px;
+  overflow: hidden; }
+  .lunch .jumbotron .for-about {
+    text-align: center;
+    margin-top: 12%; }
+  .lunch .jumbotron h1 {
+    color: white;
+    font-family: 'Ruthie', cursive;
+    font-size: 6rem; }
+    .lunch .jumbotron h1:hover {
+      color: #cc0600;
+      transform: scale(1.3);
+      transition: 1s; }
+  .lunch .jumbotron p {
+    font-size: 2.5rem;
+    color: white;
+    font-family: 'Ruthie', cursive; }
+    .lunch .jumbotron p:hover {
+      color: #cc0600;
+      transform: scale(1.3);
+      transition: 1s; }
+.lunch .arrow-divded-down {
+  width: 124px;
+  height: 13px;
+  background: url(../img/arrow-down.png) center no-repeat;
+  position: relative;
+  bottom: -126px;
+  left: 49%;
+  margin-left: -62px; }
+
+.lunch-meals .dish-panel {
+  padding-bottom: 16px;
+  border-bottom: 1px dashed #cc0600; }
+.lunch-meals .dish-panel:last-child {
+  padding-bottom: 0;
+  border-bottom: none;
+  margin-bottom: 0; }
+.lunch-meals .dish-panel .dish--price {
+  text-align: right;
+  color: #cc0600; }
+.lunch-meals .dish-panel .dish--title:hover {
+  color: #cc0600;
+  transition: 1s; }
+.lunch-meals .dish-container .dish--img {
+  margin-bottom: 32px; }
+
+.dinner .jumbotron {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("../img/reservation.png") no-repeat fixed;
+  background-size: cover;
+  height: 500px;
+  overflow: hidden; }
+  .dinner .jumbotron .for-about {
+    text-align: center;
+    margin-top: 12%; }
+  .dinner .jumbotron h1 {
+    color: white;
+    font-family: 'Ruthie', cursive;
+    font-size: 6rem; }
+    .dinner .jumbotron h1:hover {
+      color: #cc0600;
+      transform: scale(1.3);
+      transition: 1s; }
+  .dinner .jumbotron p {
+    font-size: 2.5rem;
+    color: white;
+    font-family: 'Ruthie', cursive; }
+    .dinner .jumbotron p:hover {
+      color: #cc0600;
+      transform: scale(1.3);
+      transition: 1s; }
+.dinner .arrow-divded-down {
+  width: 124px;
+  height: 13px;
+  background: url(../img/arrow-down.png) center no-repeat;
+  position: relative;
+  bottom: -126px;
+  left: 49%;
+  margin-left: -62px; }
+
+.dinner-meals .dish-panel {
+  padding-bottom: 16px;
+  border-bottom: 1px dashed #cc0600; }
+.dinner-meals .dish-panel:last-child {
+  padding-bottom: 0;
+  border-bottom: none;
+  margin-bottom: 0; }
+.dinner-meals .dish-panel .dish--price {
+  text-align: right;
+  color: #cc0600; }
+.dinner-meals .dish-panel .dish--title:hover {
+  color: #cc0600;
+  transition: 1s; }
+.dinner-meals .dish-container .dish--img {
+  margin-bottom: 32px; }
+
 /*# sourceMappingURL=style.css.map */

@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72aad2cb-f494-4ccc-a69e-7ba755a64293" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/vendor/img/reservation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/img/arrow-down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/img/arrow-up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/img/menu.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/Contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/Menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/css/.sass-cache/e0b0e9e7cc43109cc2c2e925f71d4bd0fb5199e6/style.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/css/.sass-cache/e0b0e9e7cc43109cc2c2e925f71d4bd0fb5199e6/style.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/css/style.css.map" afterDir="false" />
@@ -48,16 +51,16 @@
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Spotline\chicken\chiken planet\vendor" />
+      <recent name="F:\Spotline\chicken\chiken planet\vendor\js" />
+      <recent name="F:\Spotline\chicken\chiken planet\vendor\css" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\Spotline\chicken\chiken planet\vendor\img" />
       <recent name="F:\Spotline\chicken\chiken planet\vendor\css" />
       <recent name="F:\Spotline\chicken\chiken planet\vendor\js" />
       <recent name="F:\Spotline\chicken\chiken planet" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\Spotline\chicken\chiken planet\vendor" />
-      <recent name="F:\Spotline\chicken\chiken planet\vendor\js" />
-      <recent name="F:\Spotline\chicken\chiken planet\vendor\css" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -84,7 +87,8 @@
       <updated>1598736048756</updated>
       <workItem from="1598736050489" duration="3115000" />
       <workItem from="1598775272786" duration="21198000" />
-      <workItem from="1598814628422" duration="15922000" />
+      <workItem from="1598814628422" duration="16975000" />
+      <workItem from="1598902943602" duration="2884000" />
     </task>
     <task id="LOCAL-00001" summary="we added section about why us and designing gallery of  some meals">
       <created>1598797979286</created>
@@ -100,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598869078038</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="we designed">
+      <created>1598878980294</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598878980294</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,13 +120,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="we added section about why us and designing gallery of  some meals" />
     <MESSAGE value="we added section about recoomendation,subscribe and footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="we added section about recoomendation,subscribe and footer" />
+    <MESSAGE value="we designed" />
+    <option name="LAST_COMMIT_MESSAGE" value="we designed" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="283" y="0" key="CommitChangelistDialog2" timestamp="1598869073948">
+    <state x="283" y="0" key="CommitChangelistDialog2" timestamp="1598878978413">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="283" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1598869073948" />
+    <state x="283" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1598878978413" />
     <state x="351" y="150" key="EditFileWatcherDialog" timestamp="1598737846492">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -124,10 +136,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="183" y="14" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1598737847836" />
-    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1598869081811">
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1598879022224">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1598869081811" />
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1598879022224" />
     <state x="338" y="168" key="run.anything.popup" timestamp="1598785903300">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
