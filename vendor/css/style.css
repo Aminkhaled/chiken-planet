@@ -1089,4 +1089,60 @@ menu page
 .dinner-meals .dish-container .dish--img {
   margin-bottom: 32px; }
 
+/*
+==============================
+About us
+==============================
+*/
+.about-us {
+  padding-bottom: 100px; }
+  .about-us .main-text h1 {
+    text-transform: capitalize;
+    color: #cc0600;
+    font-size: 3rem;
+    position: relative;
+    top: 0;
+    left: 0; }
+  .about-us .main-text h1:after {
+    position: absolute;
+    top: 0;
+    left: 45%;
+    content: '';
+    transform: translateY(70px);
+    color: #cc0600;
+    background: #cc0600;
+    width: 100px;
+    text-align: center;
+    height: 2px; }
+  .about-us .about-us-text {
+    margin-top: 100px;
+    z-index: 222;
+    position: relative;
+    padding: 12px;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white; }
+    .about-us .about-us-text h2 {
+      text-transform: capitalize;
+      font-family: 'Ruthie', cursive;
+      font-size: 3.5rem; }
+      .about-us .about-us-text h2:hover {
+        color: #cc0600;
+        transition: 1s; }
+    .about-us .about-us-text p {
+      padding-top: 30px;
+      line-height: 25px; }
+      .about-us .about-us-text p:hover {
+        color: #cc0600;
+        transition: 1s; }
+  .about-us .about-us-img {
+    margin-top: 50px; }
+  .about-us .about-us-img img {
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+  .about-us .about-us-img img.last-child {
+    width: 100%;
+    position: relative;
+    right: 100px; }
+
 /*# sourceMappingURL=style.css.map */

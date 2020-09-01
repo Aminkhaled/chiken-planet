@@ -1263,3 +1263,72 @@ menu page
 
 
 }
+/*
+==============================
+About us
+==============================
+*/
+.about-us {
+  padding-bottom: 100px;
+  .main-text h1{
+    text-transform: capitalize;
+    color: $mainColor;
+    font-size: 3rem;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .main-text h1:after{
+    position: absolute;
+    top: 0;
+    left: 45%;
+    content: '';
+    transform: translateY(70px);
+    color: $mainColor;
+    background: $mainColor;
+    width: 100px;
+    text-align: center;
+    height: 2px;
+  }
+  .about-us-text{
+    margin-top: 100px;
+    z-index: 222;
+    position: relative;
+    padding: 12px;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+    h2{
+      text-transform: capitalize;
+      font-family: 'Ruthie', cursive;
+
+      font-size: 3.5rem;
+      &:hover{
+        color: $mainColor;
+        transition: 1s;
+      }
+    }
+    p{
+      padding-top: 30px;
+      line-height: 25px;
+      &:hover{
+        color: $mainColor;
+        transition: 1s;
+      }
+    }
+  }
+  .about-us-img{
+    margin-top: 50px;
+
+  }
+  .about-us-img img{
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  }
+  .about-us-img img.last-child{
+    width: 100%;
+    position: relative;
+    right: 100px;  }
+
+}
