@@ -1396,6 +1396,12 @@ MediaQuery of home page
 */
 
 @media only screen and (min-width: 320px) and (max-width: 480px){
+  .navbar-light .navbar-nav .nav-link{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'sans-serif';
+  }
   .who-us .who-us-text {
     margin-top: 100px;
     z-index: 222;
@@ -1406,7 +1412,10 @@ MediaQuery of home page
     background-color: white;
     left: -19px;
   }
-  .who-us .who-us-img img {
+  .subscribe-area{
+    display: none;
+  }
+  .who-us .why-us-img  img {
     width: 50%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transform: rotate(90deg);
@@ -1414,7 +1423,18 @@ MediaQuery of home page
     top: -132px;
     left: 85px;
   }
-  .who-us .who-us-img img.last-child{
+  header .owl-carousel{
+    top: 0;
+  }
+  .home-nav.navbar-light .navbar-toggler {
+    color: black;
+    border-color: black;
+  }
+  .home-nav .navbar-brand{
+    color: black;
+  }
+
+  .who-us .why-us-img img.last-child{
     width: 50%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transform: rotate(90deg);
@@ -1432,11 +1452,30 @@ MediaQuery of home page
 
 }
 @media only screen and (min-width: 481px) and (max-width: 767px){
-  .who-us .who-us-img img.last-child{
+  .navbar-light .navbar-nav .nav-link{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'sans-serif';
+  }
+  .who-us .why-us-img img.last-child{
     top: -317px;
     left: 100px;
   }
-  .who-us .who-us-img img {
+  header .owl-carousel{
+    top: 0;
+  }
+  .home-nav.navbar-light .navbar-toggler {
+    color: black;
+    border-color: black;
+  }
+  .home-nav .navbar-brand{
+    color: black;
+  }
+  .subscribe-area{
+    display: none;
+  }
+  .who-us .why-us-img img{
     width: 50%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transform: rotate(90deg);
