@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72aad2cb-f494-4ccc-a69e-7ba755a64293" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/vendor/css/mediaQuery.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/About-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/About-us.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/css/.sass-cache/e0b0e9e7cc43109cc2c2e925f71d4bd0fb5199e6/style.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/css/.sass-cache/e0b0e9e7cc43109cc2c2e925f71d4bd0fb5199e6/style.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/css/style.css.map" afterDir="false" />
@@ -87,7 +85,8 @@
       <workItem from="1598775272786" duration="21198000" />
       <workItem from="1598814628422" duration="16975000" />
       <workItem from="1598902943602" duration="13118000" />
-      <workItem from="1599171580862" duration="2160000" />
+      <workItem from="1599171580862" duration="2557000" />
+      <workItem from="1599202716828" duration="543000" />
     </task>
     <task id="LOCAL-00001" summary="we added section about why us and designing gallery of  some meals">
       <created>1598797979286</created>
@@ -138,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598956797212</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="we added more quiries for resposive">
+      <created>1599173839993</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1599173839993</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,13 +157,14 @@
     <MESSAGE value="we designed menu page" />
     <MESSAGE value="we designed about-us page and modify nav menu" />
     <MESSAGE value="we designed about-us page and modify testimonials" />
-    <option name="LAST_COMMIT_MESSAGE" value="we designed about-us page and modify testimonials" />
+    <MESSAGE value="we added more quiries for resposive" />
+    <option name="LAST_COMMIT_MESSAGE" value="we added more quiries for resposive" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="283" y="0" key="CommitChangelistDialog2" timestamp="1598956795016">
+    <state x="283" y="0" key="CommitChangelistDialog2" timestamp="1599173835259">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="283" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1598956795016" />
+    <state x="283" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1599173835259" />
     <state x="351" y="150" key="EditFileWatcherDialog" timestamp="1598737846492">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -166,10 +173,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="183" y="14" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1598737847836" />
-    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1598956799892">
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1599173848764">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1598956799892" />
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1599173848764" />
     <state x="340" y="9" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1599173027011">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
